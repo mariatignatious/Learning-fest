@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.parent1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.parent2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

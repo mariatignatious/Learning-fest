@@ -1,0 +1,21 @@
+body
+{
+    text-align: start;
+}
+div
+{
+    width:unset;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: rgb(13, 107, 231);
+    border: 25px solid black;
+    margin:100px;
+    font-weight:bold;
+    text-align: left;
+    font-size:x-large;
+}
+h2{
+    text-align: center;
+}

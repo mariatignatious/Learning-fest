@@ -1,0 +1,12 @@
+body{
+    height:40px;
+    background-color: white;
+}
+div{
+    height:100px;
+    width:unset;
+    padding: 20px;
+    font-size: 40px;
+    text-align: left;
+    border: 5px solid brown;
+}

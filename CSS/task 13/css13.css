@@ -1,0 +1,21 @@
+.s{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid white;
+}
+body{
+    text-align: center;
+    justify-content: center;
+}
