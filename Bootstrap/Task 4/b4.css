@@ -1,0 +1,24 @@
+h4{
+    text-align: center;
+}
+.main{
+    margin-left: 450px;
+    border: 1px solid;
+    border-color: lightgrey;
+    margin-top: 20px;
+    min-height: 500px;
+    width: 500px;
+    background-color: white;
+   
+     text-align: center;
+}
+p{
+
+    font-size: small;
+    text-align: left;
+}
+
+.file{
+
+   margin-right: 200px;
+}
