@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.sign{
+    display: grid;
+    position: absolute;
+    top: 40px;
+    background-color: white;
+    height: 650px;
+    width: 500px;
+}
+form{
+    margin: 0px;
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+    padding: 50px;
+    width: 80%;
+    max-height: 80%;
+
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-radius: 30px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(230, 228, 224);
+    background-color:rgb(230, 228, 224) ;
+    margin: auto;
+    padding: 4px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(90, 87, 84);
+    color: aliceblue;
+    cursor: pointer;
+}
+hr{
+    width: 350px;
+    margin: 30px;
+}

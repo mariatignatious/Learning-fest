@@ -1,0 +1,30 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(98, 216, 216);
+    border-radius: 10px;
+    font-size: medium;
+    text-transform: uppercase;
+    color: aliceblue;
+    border: solid 1px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
+button:hover{
+    background-color:rgb(6, 127, 127); ;
+}
+#placeholder{
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    background-color: white;
+    font-size:50px;
+    margin: 50px auto;
+    padding: 100px;
+    border-radius: 20px;
+}

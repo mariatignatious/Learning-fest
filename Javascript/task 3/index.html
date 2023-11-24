@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        div{
+            height: 400px;
+            width: 300px;
+            margin: 100px auto;
+            padding:50px ;
+            border: solid 1px black;
+            font-size: 30px;
+        }
+        input{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label>Amount</label><br>
+        <input type="number" id="amount" placeholder="Enter amount"><br>
+        <label>Rate of Interest</label><br>
+        <input type="number" id="rate" placeholder="Enter interest"><br>
+        <label>Months to pay</label><br>
+        <input type="number" id="time" placeholder="Enter month"><br><br>
+        <button id="button" onclick="emi()">EMI</button>
+        <p>Total EMI: 
+            <span style="font-weight: 20px; color: black;" id="output"></span>
+         </p>
+        
+    <script>
+        function emi(){
+         amount=document.getElementById('amount').value
+         rate=document.getElementById('rate').value
+         time=document.getElementById('time').value
+         const interest = (amount * (rate * 0.01)) / time;
+         let emi = ((amount / time) + interest).toFixed(2);
+         emi = emi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+         document.getElementById("output").innerHTML=emi
+      }
+    </script>
+</body>
+</html>

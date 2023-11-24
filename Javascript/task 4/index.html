@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sign">
+        <div class="head">
+            <h1 >Sign Up</h1>
+        </div>
+        <div class="details">
+            <form onsubmit="return validate()" action="msg.html">
+                <hr>
+                <label>First Name</label><br>
+                <input type="text" id="fname" placeholder="Enter your firsrt name"><br>
+                <label>Last Name</label><br>
+                <input type="text" id="lname" placeholder="Enter your last name"><br>
+                <label>Date of Birth</label><br>
+                <input type="date" id="date"><br>
+                <label>Enter Email</label><br>
+                <input type="email" id="email" placeholder="Enter Email"><br>
+                <label>Password</label><br>
+                <input type="password" id="password" placeholder="Enter Password"><br>
+                <label>Confirm Password</label><br>
+                <input type="password" id="password" placeholder="Repeat Password"><br>
+                <hr>
+                <button type="submit" >Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function validate()
+        {
+            var firstname=document.getElementById("fname");
+            var lastname=document.getElementById("lname");
+            var date=document.getElementById("date");
+            var email=document.getElementById("email");
+            var password=document.getElementById("password");
+            
+           if(firstname.value.trim()==""||lastname.value.trim()==""||date.value.trim()==""||email.value.trim()==""||password.value.trim()=="")
+           {
+            alert("No blank value allowed");
+            return false;
+           }
+           else{
+             true;
+           }
+        }
+    </script>
+</body>
+</html>
